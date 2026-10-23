@@ -1,0 +1,12 @@
+.godot/
+*.apk
+*.exe
+*.pck
+*.zip
+export/
+.mono/
+.import/
+bin/
+obj/
+.DS_Store
+Thumbs.db
