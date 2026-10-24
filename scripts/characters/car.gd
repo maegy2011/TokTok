@@ -13,7 +13,7 @@ var speed: float = 0.0
 var steer_input: float = 0.0
 var throttle: float = 0.0
 
-@onready var sprite: ColorRect = $Sprite2D
+@onready var sprite: Sprite2D = $Sprite2D
 
 func _physics_process(delta: float) -> void:
 	steer_input = Input.get_axis("steer_left", "steer_right")
